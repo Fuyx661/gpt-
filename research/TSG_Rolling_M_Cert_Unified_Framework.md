@@ -1,5 +1,7 @@
 # TSG 统一研究框架：Rolling M-Cert 滚动有限反馈采购与经济质量认证
 
+> 2026-11-28 R1 冻结：三类资源采用方案 A；物理与经济模型的最新口径以 [R1 资源模型冻结](R1_Dynamic_A_Model_Freeze.md) 为准。旧正文中零基线放电/首次入场或状态相关最低净收益等冲突表达不再适用。
+
 > 版本：统一整理版 v0.2（经济质量驱动停止）  
 > 整理日期：2026-11-25；修订：2026-11-28  
 > 整理依据：research/TSG_Rolling_M_Cert_Research_Framework.md（2026-11-24）与 research/修改意见.md（2026-11-25）  
@@ -300,7 +302,7 @@ P_{n,t}^{L}=P_{n,t}^{L,0}-\Delta P_{n,t}^{inj}.
 定义：
 
 - \(C_i(q_{ij,t};s_{i,t}^{P})\)：Provider 履行合同的私有增量成本；
-- \(\kappa_i(s_{i,t}^{P})\)：Provider 的最低参与收益要求；
+- \(\kappa_i\)：Provider 的最低参与收益要求；
 - \(\theta_i\)：私有成本/参与参数。
 
 成本来源按资源类别区分：
@@ -325,7 +327,7 @@ Provider 接受合同报价的条件为：
 -
 C_i(q_{ij,t};s_{i,t}^{P})
 \geq
-\kappa_i(s_{i,t}^{P}).
+\kappa_i.
 \]
 
 对应连续有效接受价格阈值：
@@ -334,7 +336,7 @@ C_i(q_{ij,t};s_{i,t}^{P})
 \tau_{ij,t}^{eff}
 =
 \frac{
-C_i(q_{ij,t};s_{i,t}^{P})+\kappa_i(s_{i,t}^{P})
+C_i(q_{ij,t};s_{i,t}^{P})+\kappa_i
 }{
 E_{ij,t}
 }.

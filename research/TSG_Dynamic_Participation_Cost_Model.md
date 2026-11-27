@@ -1,5 +1,7 @@
 # TSG：状态驱动的动态参与成本模型（方案 A）
 
+> 2026-11-28：确认简化动态异质资源方案 A，增加 BESS 基线充电恢复、CL 有限预算和时变生产基线、全天 EV 会话。具体模型与代码状态见 [R1 资源模型冻结](R1_Dynamic_A_Model_Freeze.md)。经济系数尚未完成文献校准。
+
 > 日期：2026-11-27  
 > 状态：方案 A 已确认；具体成本函数、参数及校准方法为待审查的候选模型。  
 > 关联：[Rolling M-Cert 统一框架](TSG_Rolling_M_Cert_Unified_Framework.md)、[P0-R 资源时序仿真准备方案](P0_R_Resource_Timeseries_Preparation.md)。
