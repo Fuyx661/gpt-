@@ -1,5 +1,7 @@
 # R1模型冻结（旧方案A）：历史开发记录
 
+> 2026-11-28 实现状态更新：[R3 修复与新模型实际结果](R3_RESOURCE_REMEDIATION_REPORT.md)及[模型修订说明](R3_Model_Remediation_Amendment.md)。Flexibility main `338797a` 已实现 v0.3 的公开上界固定合同域、隐藏真实能力、EV执行后重排及P/Q登记、共同反馈策略适配、无二次确认和无预设询价预算。Provider四状态端点保留；20×24 h新闭环完成，仍有177期实际电压违规，不表示完整Rolling M-Cert或市场校准通过。Minimax排序、跨合同推断和严格AC不可行证书仍未实现。
+
 > **已被[统一研究框架 v0.3](TSG_Rolling_M_Cert_Unified_Framework.md)部分取代。** 下文保留旧实验实际配置及当时计划，非现行要求。真实认证容量公开、EV富余充电削减/禁止超基线补充充电、固定基线和Q、旧报价/确认/预算等不得用于新版正式实验。旧R3已实际运行MATLAB；下方“待运行”是当时状态。新版采用公开额定/基线上界、未知真实能力、EV时间转移和内生基线，三阶段路线不变。详见[R3验收](R3_Closure_Plan.md)。[原始Git版本](https://github.com/Fuyx661/gpt-/blob/a10bc6e4b819d5ce241ec8dac49a207f2c8acef8/research/R1_Dynamic_A_Model_Freeze.md)。
 
 ---

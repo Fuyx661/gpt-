@@ -1,5 +1,7 @@
 # TSG 状态驱动动态参与成本（v0.3）
 
+> 2026-11-28 实现状态更新：[R3 修复与新模型实际结果](R3_RESOURCE_REMEDIATION_REPORT.md)及[模型修订说明](R3_Model_Remediation_Amendment.md)。Flexibility main `338797a` 已实现 v0.3 的公开上界固定合同域、隐藏真实能力、EV执行后重排及P/Q登记、共同反馈策略适配、无二次确认和无预设询价预算。Provider四状态端点保留；20×24 h新闭环完成，仍有177期实际电压违规，不表示完整Rolling M-Cert或市场校准通过。Minimax排序、跨合同推断和严格AC不可行证书仍未实现。
+
 现行依据：[统一研究框架 v0.3](TSG_Rolling_M_Cert_Unified_Framework.md)。固定私有经济系数及每份正合同最低净收益 κ；成本与有效接受价格随状态及合同改变。询价期间冻结状态，真实最大能力、详细状态和经济参数不公开。
 
 - BESS：基线充电恢复、额外放电；基础损耗/能量成本与SOC稀缺代理。

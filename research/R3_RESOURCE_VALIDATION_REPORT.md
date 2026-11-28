@@ -1,5 +1,9 @@
 # R3 三类异质资源综合验证：研究进度与模型状态
 
+> 2026-11-28 实现状态更新：[R3 修复与新模型实际结果](R3_RESOURCE_REMEDIATION_REPORT.md)及[模型修订说明](R3_Model_Remediation_Amendment.md)。Flexibility main `338797a` 已实现 v0.3 的公开上界固定合同域、隐藏真实能力、EV执行后重排及P/Q登记、共同反馈策略适配、无二次确认和无预设询价预算。Provider四状态端点保留；20×24 h新闭环完成，仍有177期实际电压违规，不表示完整Rolling M-Cert或市场校准通过。Minimax排序、跨合同推断和严格AC不可行证书仍未实现。
+
+> 下文保留第一轮历史证据。旧记录的372个流程成功期，准确分为191期无需采购和181期正需求采购成功；本轮修复及v0.3数据另列，不覆盖历史样本。
+
 日期：2026-11-28。已完成本轮一次性综合验证；下列是实际结果，不是新研究阶段。
 
 代码和证据提交：[Flexibility b80ec37](https://github.com/Fuyx661/Flexibility/commit/b80ec37ac5547b14b0b858316a8e89d4b8b6302b)。完整 [R3_RESOURCE_VALIDATION_REPORT.md](https://github.com/Fuyx661/Flexibility/blob/b80ec37ac5547b14b0b858316a8e89d4b8b6302b/R3_RESOURCE_VALIDATION_REPORT.md)，[可复现产物及 SHA-256](https://github.com/Fuyx661/Flexibility/blob/b80ec37ac5547b14b0b858316a8e89d4b8b6302b/artifacts/r3/manifest.json)。
