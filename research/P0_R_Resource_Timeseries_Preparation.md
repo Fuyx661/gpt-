@@ -1,6 +1,12 @@
-# P0-R：资源时序仿真环境准备方案
+# 资源时序准备：历史开发记录
 
-> 2026-11-28 R3 实际验证更新：六项指定 MATLAB 测试均已运行，网络输入测试修复后复测通过；dynamic_A + r2_seeded 的 20 种子×3资源场景×24 h 资源/成本/信息边界检查未发现违规。20 个系统闭环全部完成，但 480 期中仅 372 期采购成功，204 期实际 AC 电压越界。详见 [R3 综合验证](R3_RESOURCE_VALIDATION_REPORT.md)。这不代表完整 Rolling M-Cert 或无条件网络安全通过。
+> **已被[统一研究框架 v0.3](TSG_Rolling_M_Cert_Unified_Framework.md)部分取代。** 下文保留旧实验实际配置及当时计划，非现行要求。真实认证容量公开、EV富余充电削减/禁止超基线补充充电、固定基线和Q、旧报价/确认/预算等不得用于新版正式实验。旧R3已实际运行MATLAB；下方“待运行”是当时状态。新版采用公开额定/基线上界、未知真实能力、EV时间转移和内生基线，三阶段路线不变。详见[R3验收](R3_Closure_Plan.md)。[原始Git版本](https://github.com/Fuyx661/gpt-/blob/a10bc6e4b819d5ce241ec8dac49a207f2c8acef8/research/P0_R_Resource_Timeseries_Preparation.md)。
+
+---
+
+## 历史正文（仅对应旧开发模型）
+
+> 2026-11-28 R3 实际验证更新：六项指定 MATLAB 测试均已运行，网络输入测试修复后复测通过；dynamic_A + r2_seeded 的 20 种子×3资源场景×24 h 资源/成本/信息边界检查未发现违规。20 个系统闭环全部完成，但 480 期中191期无需采购、181期采购成功、108期流程失败，204 期实际 AC 电压越界。详见 [R3 综合验证](R3_RESOURCE_VALIDATION_REPORT.md)。这不代表完整 Rolling M-Cert 或无条件网络安全通过。
 
 > 2026-11-28 R2：新增 [R2 数据设计与参数登记](R2_Dynamic_A_Data_Design.md)，采用独立种子生成合成设备参数、外生时序及私有经济参数；与 R1 固定开发场景分开，待 MATLAB 验证及数据校准。
 

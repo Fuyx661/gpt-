@@ -16,3 +16,9 @@
 ## 目标
 
 让有价值的 GPT 对话能够持续积累、方便查找，并在后续研究、学习和工作中重复使用。
+
+## 当前研究入口
+
+- [Rolling M-Cert 统一研究框架 v0.3](research/TSG_Rolling_M_Cert_Unified_Framework.md)：唯一现行规范。
+- [R3 综合修复与验收](research/R3_Closure_Plan.md)：当前实施任务。
+- R1/R2/R3 历史记录不可解释为 v0.3 已验证。
